@@ -43,12 +43,12 @@ Para visualizar os dados e interagir com os filtros:
 ```streamlit run dashboard.py```
 
 ## Estrutura do Projeto
-. main.py: Script principal para execução do fluxo de coleta e salvamento.
-. dashboard.py: Código fonte da interface Streamlit
-    .modules/:
-        . api_client.py: Lógica de consumo de APIs de moedas.
-        . database.py: Funções de criação de tabelas e persistência de dados.
-        . scraper.py: Lógica de extração de dados da web.
-    . data/: Pasta destinada ao arquivo de banco de dados SQLite.
+- main.py: Script principal para execução do fluxo de coleta e salvamento.
+- dashboard.py: Código fonte da interface Streamlit
+    - modules/:
+        - api_client.py: Lógica de consumo de APIs de moedas.
+        - database.py: Funções de criação de tabelas e persistência de dados.
+        - scraper.py: Lógica de extração de dados da web.
+    - data/: Pasta destinada ao arquivo de banco de dados SQLite.
     
 Projeto desenvolvido para fins de estudo e monitoramento de mercado.
